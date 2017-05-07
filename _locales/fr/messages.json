@@ -1,0 +1,29 @@
+{
+	"browserActionH1": {
+		"message": "Bienvenu dans EsperantoX"
+	},
+	"extName": {
+		"message": "EsperantoX: Convertisseur de Texte Esperanto"
+	},
+	"homepageUrl": {
+		"message": "https://github.com/Arubinu/ektajpu"
+	},
+	"browserActionDevs": {
+		"message": "Programmé par Alvin Pergens"
+	},
+	"browserActionDesc": {
+		"message": "Cette extension convertit les caractères du système x en caractères Esperanto appropriés."
+	},
+	"extDescription": {
+		"message": "Convertit les caractères du système x en leurs propres caractères Esperanto."
+	},
+	"browserActionExtraNote": {
+		"message": "Mise en garde: en raison de la complexité de certaines pages Web, cette extension ne fonctionnera pas toujours. Par exemple, cela ne fonctionne pas actuellement dans un courriel ou des boîtes avec un style utilisant JavaScript."
+	},
+	"browserActionButtonActive": {
+		"message": "Activé"
+	},
+	"browserActionButtonInActive": {
+		"message": "Désactivé"
+	}
+}

@@ -1,63 +1,36 @@
 <!doctype html>
-<html lang="eo">
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="robots" content="index, follow">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
+		<title>EsperantoX!</title>
+		<link rel="author" href="humans.txt" />
+		<link rel="stylesheet" href="style.css">
+	</head>
 
-	<!-- app title -->
-	<title>Ektajpu!</title>
+	<body>
+		<div id="popup" class="active">
+			<h1 data-localize="__MSG_browserActionH1__"></h1>
+			<p class="desc" data-localize="__MSG_browserActionDesc__"></p>
+			<p>cx ⟶ ĉ &nbsp; gx ⟶ ĝ &nbsp; hx ⟶ ĥ &nbsp; jx ⟶ ĵ &nbsp; sx ⟶ ŝ &nbsp; ux ⟶ ŭ</p>
 
-	<!-- Credit to Developers -->
-	<link rel="author" href="humans.txt" />
+			<div class="box active">
+				<img src="imgs/active.png" />
+				<button data-localize="__MSG_browserActionButtonActive__"></button>
+			</div>
 
-	<!-- Misc -->
-	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+			<div class="box inactive">
+				<img src="imgs/inactive.png" />
+				<button data-localize="__MSG_browserActionButtonInActive__"></button>
+			</div>
 
-	<!-- should web bots index app/page -->
-	<meta name="robots" content="index, follow">
-
-	<!-- Stylesheets -->
-	<link rel="stylesheet" href="css/style.css">
-
-</head>
-
-<body>
-
-	<div id="ektajpuMainPopup">
-
-		<h1 data-localize="__MSG_browserActionH1__">Saluton !</h1>
-		<p id="ektajpuDescription" data-localize="__MSG_browserActionDesc__">This extension converts the x-system characters into the proper Esperanto characters.</p>
-		<ul>
-			<li>cx ⟶ ĉ</li>
-			<li>gx ⟶ ĝ</li>
-			<li>hx ⟶ ĥ</li>
-			<li>jx ⟶ ĵ</li>
-			<li>sx ⟶ ŝ</li>
-			<li>ux ⟶ ŭ</li>
-		</ul>
-
-		<div id="ektajpuActivateBox">
-			<img src="../icons/ic_check_white_48dp/web/ic_check_white_48dp_1x.png" id="ektajpuActivateBoxImg" />
-			<button id="ektajpuActivate" data-localize="__MSG_browserActionButtonActive__">active</button>
+			<div class="note" data-localize="__MSG_browserActionExtraNote__"></div>
+			<div class="footer" data-localize="__MSG_browserActionDevs__"></div>
 		</div>
 
-		<div id="ektajpuInActivateBox">
-			<img src="../icons/ic_cancel_white_48dp/web/ic_cancel_white_48dp_1x.png" id="ektajpuInActivateBoxImg" />
-			<button id="ektajpuInActivate" data-localize="__MSG_browserActionButtonInActive__">inactive</button>
-		</div>
-
-		<div id="ektajpuExtraNote" data-localize="__MSG_browserActionExtraNote__">...</div>
-		
-
-		<div id="footer" data-localize="__MSG_browserActionDevs__">Program by Nicholas Jensen</div>
-
-	</div>
-	<!-- <div id="ektajpuMainPopup"> -->
-
-	<!-- javascripts -->
-	<script src="js/EktajpuBaController.js"></script>
-
-</body>
-
+		<script src="script.js"></script>
+	</body>
 </html>

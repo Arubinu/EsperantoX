@@ -1,29 +1,29 @@
 {
-    "extName": {
-        "message": "Ektajpu: Esperanto Text Converter"
-    },
-    "extDescription": {
-        "message": "Converts the x-system characters into their proper Esperanto characters."
-    },
-    "homepageUrl": {
-        "message": "https://github.com/njensen0604/ektajpu"
-    },
-    "browserActionH1": {
-        "message": "Saluton to Ektajpu"
-    },
-    "browserActionDesc": {
-        "message": "This extension converts the x-system characters into the proper Esperanto characters."
-    },
-    "browserActionDevs": {
-        "message": "Program by Nicholas Jensen"
-    },
-    "browserActionButtonActive": {
-        "message": "Activated"
-    },
-    "browserActionButtonInActive": {
-        "message": "Not Activated"
-    },
-    "browserActionExtraNote": {
-        "message": "Caveat: Because of the complexity of certain web pages, this extension will not always work. For example, this does not currently work in email or boxes with user-styling using JavaScript."
-    }
+	"browserActionH1": {
+		"message": "Welcome to EsperantoX"
+	},
+	"extName": {
+		"message": "EsperantoX: Esperanto Text Converter"
+	},
+	"homepageUrl": {
+		"message": "https://github.com/Arubinu/ektajpu"
+	},
+	"browserActionDevs": {
+		"message": "Program by Alvin Pergens"
+	},
+	"browserActionDesc": {
+		"message": "This extension converts the x-system characters into the proper Esperanto characters."
+	},
+	"extDescription": {
+		"message": "Converts the x-system characters into their proper Esperanto characters."
+	},
+	"browserActionExtraNote": {
+		"message": "Caveat: Because of the complexity of certain web pages, this extension will not always work. For example, this does not currently work in email or boxes with user-styling using JavaScript."
+	},
+	"browserActionButtonActive": {
+		"message": "Activated"
+	},
+	"browserActionButtonInActive": {
+		"message": "Not Activated"
+	}
 }
