@@ -1,4 +1,4 @@
-# ektajpu #
+# EsperantoX #
 
 This chrome extension converts the x-system characters into their proper Esperanto characters.
 
@@ -14,16 +14,23 @@ ux ⟶ ŭ
 
 ## Install ##
 
-Install it from the [Chrome Web Store](https://chrome.google.com/webstore/detail/ektajpu-esperanto-text-co/imcphpmkkohhbaipkceicfheidilofbo)
+Since Chrome extensions are no longer published for Linux / Mac / Windows but only ChromeOS, you will need to do the following :
 
-Install it from the [Firefox Mozilla Add-on Store](https://addons.mozilla.org/addon/ektajpu-esperanto-converter/)
+### Download and extract the extension
 
-Install it from the [Opera Add-on Store](https://addons.opera.com/en/extensions/details/ektajpu-esperanto-text-converter/?display=en)
+At the top of this page you will find a green button named ***Clone or download*** click on it.
+On the panel that appears, click ***Download ZIP***.
 
-### Changes ###
+Once downloaded, find the file on your computer.
+You should have the option to extract it after making a right click on it.
+Once extracted, you will have to have a new folder, which corresponds to the extension.
 
-Read the CHANGELOG.md for a list of updates.
+### Activate developer mode of your browser based on Chromium
 
-### Feature Requests ###
+Write ***chrome://extensions*** in the address bar and validate.
+Check the box at the top right named ***Developer mode***.
 
-If there are any features you would like to see in this extension (or another), please contact me.
+### Add extension to your browser
+
+Click the Load unpacked extension button and specify the location of the extension folder you obtained in the first step.
+The extension is now ready for use (the icon added in the address bar).
