@@ -179,7 +179,8 @@ document.addEventListener( 'DOMNodeInserted', function() {
 	}
 
 	timeout = setTimeout( function() {
-		console.log( 'EsperantoX refreshed' );
+		if ( main.state )
+			console.log( 'EsperantoX refreshed' );
 		main.editable( main.state );
 	}, 100 );
 }, false );
