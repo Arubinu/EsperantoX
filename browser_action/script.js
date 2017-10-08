@@ -61,4 +61,4 @@ document.addEventListener( 'DOMContentLoaded', function() {
 	document.querySelector( '.box.inactive' ).addEventListener( 'click', function() { toggle( true ); }, false );
 } );
 
-//# sourceMappingURL=EsperantoXBaController.js.map
+//# sourceMappingURL=script.js.map

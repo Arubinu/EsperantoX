@@ -1,25 +1,25 @@
 {
-   "author": "Alvin Pergens",
-   "browser_action": {
-      "default_icon": "icons/icon128.png",
-      "default_popup": "browser_action/browser_action.html",
-      "default_title": "__MSG_extName__"
-   },
-   "content_scripts": [ {
-      "js": [ "inject.js" ],
-      "matches": [ "*://*/*" ],
-      "run_at": "document_end"
-   } ],
-   "default_locale": "en",
-   "description": "__MSG_extDescription__",
-   "homepage_url": "https://github.com/Arubinu/EsperantoX",
-   "icons": {
-      "128": "icons/icon128.png",
-      "16": "icons/icon16.png",
-      "48": "icons/icon48.png"
-   },
-   "manifest_version": 2,
-   "name": "__MSG_extName__",
-   "permissions": [ "http://*/*, https://*/*", "storage" ],
-   "version": "0.0.1"
+	"manifest_version": 2,
+	"name": "__MSG_extName__",
+	"version": "0.1.0",
+	"description": "__MSG_extDescription__",
+	"author": "Alvin Pergens <arubinu@free.fr>",
+	"default_locale": "en",
+	"homepage_url": "https://github.com/Arubinu/EsperantoX",
+	"browser_action": {
+		"default_icon": "icons/icon128.png",
+		"default_popup": "browser_action/browser_action.html",
+		"default_title": "__MSG_extName__"
+	},
+	"content_scripts": [ {
+		"matches": [ "*://*/*" ],
+		"js": [ "inject.js" ],
+		"run_at": "document_end"
+	} ],
+	"icons": {
+		"128": "icons/icon128.png",
+		"48": "icons/icon48.png",
+		"16": "icons/icon16.png"
+	},
+	"permissions": [ "http://*/*, https://*/*", "storage" ]
 }
