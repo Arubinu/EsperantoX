@@ -61,10 +61,8 @@ var main = {
 		if ( event.keyCode === 32 && main.enable )
 		{
 			// spacebar
-			var words = elem.value.split( ' ' );
-			var lastWord = words[ words.length - 1 ];
-
-			var replacement = main.replace( lastWord );
+			var chars = elem.value.slice( -2 );
+			var replacement = main.replace( chars );
 			if ( replacement )
 			{
 				event.preventDefault();
@@ -72,8 +70,7 @@ var main = {
 				main.enable = false;
 				main.backout = elem.value;
 
-				var location = elem.value.lastIndexOf( lastWord );
-				elem.value = elem.value.substring( 0, location ) + replacement;
+				elem.value = elem.value.slice( 0, -2 ) + replacement;
 			}
 		}
 		else if ( event.keyCode === 8 )
